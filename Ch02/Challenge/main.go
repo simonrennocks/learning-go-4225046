@@ -23,6 +23,7 @@ func calculate(value1 string, value2 string) float64 {
 func main() {
 	value1 := "100"
 	value2 := "110.5"
+	
 	result := calculate(value1, value2)
 
 	println(result)
